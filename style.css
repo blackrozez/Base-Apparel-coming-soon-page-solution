@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap');
+
+:root{
+
+--DesaturatedRed: hsl(0, 36%, 70%);
+--SoftRed: hsl(0, 93%, 68%);
+
+--DarkGrayishRed: hsl(0, 6%, 24%);
+
+--softpink: hsl(0, 100%, 99%);
+
+
+/* 
+inear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
+*/
+
+}
+
+*{
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+    background-color: var(--softpink);
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+.card{
+    width:1440px ;
+    display: flex;
+}
+
+.card-left{
+padding-left: 100px;
+padding-top: 50px;
+margin-right: 300px;
+}
+
+.tittle-logo{
+    display: flex;
+    width: 150px;
+    margin-bottom: 100px;
+    justify-content: center;
+    justify-items: center;
+    vertical-align: middle;
+}
+
+.tittle-logo div{
+    padding-left: 10px;
+    justify-content: center;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: 600
+    ;
+}
+
+.lingkaran1{
+	width: 40px;
+	height: 40px;
+	background: var(--SoftRed);
+    border-radius: 50%;
+}
+
+.content-text{
+    font-size: 60px;
+    letter-spacing: 15px;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    line-height: 1em;
+}
+
+.we{
+    font-weight: 10;
+    color: var(--SoftRed);
+}
+
+.content-description{
+    width: 400px;
+    line-height: 1.5;
+    color: var(--SoftRed);
+    margin-bottom: 4rem;
+}
+
+.input-email button{
+ position: absolute;
+ width: 80px;
+ height: 42px;
+ border-radius: 20px;
+ cursor: pointer;
+ margin-left: -35px;
+ background-color: var(--SoftRed);
+ border-color: var(--SoftRed);
+}
+
+.input-email text{
+    font-size: 16px;
+}
+
+.input-email img{
+    width: px;
+    background-color: var(--SoftRed);
+}
